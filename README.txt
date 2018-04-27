@@ -1,7 +1,13 @@
-THEME: Bold - Free Bootstrap Theme
-AUTHOR: uiCookies.com
-AUTHOR URI: https://uiCookies.com/
 
+TITLE: 
+Show - One Page Fully Responsive Free HTML5 template
+
+AUTHOR:
+DESIGNED & DEVELOPED by FREEHTML5.co
+
+Website: http://freehtml5.co/
+Twitter: http://twitter.com/fh5co
+Facebook: http://facebook.com/fh5co
 
 
 CREDITS:
@@ -15,8 +21,8 @@ http://jquery.com/
 jQuery Easing
 http://gsgd.co.uk/sandbox/jquery/easing/
 
-HTML5Shiv
-https://github.com/aFarkas/html5shiv
+Modernizr
+http://modernizr.com/
 
 Google Fonts
 https://www.google.com/fonts/
@@ -33,23 +39,9 @@ http://daneden.me/animate
 jQuery Waypoint
 https://github.com/imakewebthings/waypoints/blog/master/licenses.txt
 
-Stellar Parallax
-http://markdalgleish.com/projects/stellar.js/
-
 Owl Carousel
-https://owlcarousel2.github.io/OwlCarousel2/
+http://www.owlcarousel.owlgraphic.com/
 
-FlexSlider
-http://flexslider.woothemes.com
-
-Demo Images
-https://unsplash.com
-
-Magnific Popup
-http://dimsemenov.com/plugins/magnific-popup/
-
-CountTo
-https://github.com/mhuggins/jquery-countTo
-
-Appear
-https://github.com/morr/jquery.appear/
+Demo Images:
+http://unsplash.com
+http://graphicburger.com/
