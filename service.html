@@ -33,44 +33,7 @@
         <script src="https://code.highcharts.com/modules/exporting.js"></script>
         <script src="https://code.highcharts.com/modules/export-data.js"></script>
         <div id="container" style="min-width: 500px; max-width: 500px; height: 400px; margin: 0 auto"></div> 
-<html>        
-<script>    
-Highcharts.chart('container', {
-  chart: {
-    type: 'bar'
-  },
-  title: {
-    text: '所有產品'
-  },
-  xAxis: {
-    categories: ['A', 'B', 'C', 'D']
-  },
-  yAxis: {
-    min: 0,
-    title: {
-      text: '間隔期(天數)'
-    }
-  },
-  legend: {
-    reversed: true
-  },
-  plotOptions: {
-    series: {
-      stacking: 'normal'
-    }
-  },
-  series: [{
-    name: '未過期',
-    data: [143, 75, 185, 122]
-  }, {
-    name: '中間期',
-    data: [30, 75, 150, 122]
-  }, {
-    name: '將近過期',
-    data: [7, 30, 30, 121]
-  }]
-});</script>
-        </html>
+
         <body data-spy="scroll" data-target=".navbar-collapse">
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
@@ -214,7 +177,44 @@ Highcharts.chart('container', {
             </div><!-- End of Container -->
         </section><!-- End of Service Section -->
 
-
+<html>        
+<script>    
+Highcharts.chart('container', {
+  chart: {
+    type: 'bar'
+  },
+  title: {
+    text: '所有產品'
+  },
+  xAxis: {
+    categories: ['A', 'B', 'C', 'D']
+  },
+  yAxis: {
+    min: 0,
+    title: {
+      text: '間隔期(天數)'
+    }
+  },
+  legend: {
+    reversed: true
+  },
+  plotOptions: {
+    series: {
+      stacking: 'normal'
+    }
+  },
+  series: [{
+    name: '未過期',
+    data: [143, 75, 185, 122]
+  }, {
+    name: '中間期',
+    data: [30, 75, 150, 122]
+  }, {
+    name: '將近過期',
+    data: [7, 30, 30, 121]
+  }]
+});</script>
+        </html>
 
         <!-- footer Section -->
         <footer id="footer" class="footer">
