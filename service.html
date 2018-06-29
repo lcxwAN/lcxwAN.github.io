@@ -220,6 +220,62 @@ Highcharts.chart('container', {
     </div>
         </html>
 
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+        <script src="https://code.highcharts.com/modules/export-data.js"></script>            
+<html>
+  <div class="col-sm-5 col-sm-push-1">
+<script>
+Highcharts.chart('container', {
+  chart: {
+    plotBackgroundColor: null,
+    plotBorderWidth: null,
+    plotShadow: false,
+    type: 'pie'
+  },
+  title: {
+    text: '所有產品適用類型'
+  },
+  tooltip: {
+    pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+  },
+  plotOptions: {
+    pie: {
+      allowPointSelect: true,
+      cursor: 'pointer',
+      dataLabels: {
+        enabled: false
+      },
+      showInLegend: true
+    }
+  },
+  series: [{
+    name: 'Brands',
+    colorByPoint: true,
+    data: [{
+      name: 'A',
+      y: 25,
+      sliced: true,
+      selected: true
+    }, {
+      name: 'B',
+      y: 25
+    }, {
+      name: 'C',
+      y: 25
+    }, {
+      name: 'D',
+      y: 25
+    }]
+  }]
+});</script>
+    </div>
+        </html>
+
+    
+    
+<div id="container" style="min-width: 310px; height: 400px; max-width: 600px; margin: 0 auto"></div>
         <!-- footer Section -->
         <footer id="footer" class="footer">
             <div class="container">
