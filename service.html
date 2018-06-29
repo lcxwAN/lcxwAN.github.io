@@ -33,6 +33,41 @@
         <script src="https://code.highcharts.com/modules/export-data.js"></script>
 
         <div id="container" style="min-width: 800px; max-width: 1500px; height: 400px; margin: 0 auto"></div>
+        Highcharts.chart('container', {
+  chart: {
+    type: 'bar'
+  },
+  title: {
+    text: '所有產品'
+  },
+  xAxis: {
+    categories: ['A', 'B', 'C', 'D']
+  },
+  yAxis: {
+    min: 0,
+    title: {
+      text: '間隔期(天數)'
+    }
+  },
+  legend: {
+    reversed: true
+  },
+  plotOptions: {
+    series: {
+      stacking: 'normal'
+    }
+  },
+  series: [{
+    name: '未過期',
+    data: [143, 75, 185, 122]
+  }, {
+    name: '中間期',
+    data: [30, 75, 150, 122]
+  }, {
+    name: '將近過期',
+    data: [7, 30, 30, 121]
+  }]
+});
     </head>
     <body data-spy="scroll" data-target=".navbar-collapse">
         <!--[if lt IE 8]>
